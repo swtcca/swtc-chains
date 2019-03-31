@@ -2,6 +2,27 @@
 
 const SWTC_CHAINS = [
   {
+    code: "bitcoin",
+    currency: "BTC",
+    simple: true,
+    ACCOUNT_ALPHABET:
+      "123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz"
+  },
+  {
+    code: "ripple",
+    currency: "XRP",
+    simple: true,
+    ACCOUNT_ALPHABET:
+      "rpshnaf39wBUDNEGHJKLM4PQRST7VWXYZ2bcdeCg65jkm8oFqi1tuvAxyz"
+  },
+  {
+    code: "stellar",
+    currency: "XLM",
+    simple: true,
+    ACCOUNT_ALPHABET:
+      "gsphnaf39wBUDNEGHJKLM4PQRST7VWXYZ2bcdeCr65jkm8oFqi1tuvAxyz"
+  },
+  {
     code: "jingtum",
     currency: "SWT",
     ACCOUNT_ALPHABET:
