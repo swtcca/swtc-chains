@@ -25,14 +25,12 @@ const SWTC_CHAINS = [
   {
     code: "call",
     currency: "CALL",
-    simple: true,
     ACCOUNT_ALPHABET:
       "cpshnaf39wBUDNEGHJKLM4PQRST7VWXYZ2brdeCg65jkm8oFqi1tuvAxyz"
   },
   {
     code: "stream",
     currency: "STM",
-    simple: true,
     ACCOUNT_ALPHABET:
       "vpshnaf39wBUDNEGHJKLM4PQRST7VWXYZ2bcdeCg65jkm8oFqi1turAxyz"
   },
